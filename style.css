@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+	font-family: Inter;
+	font-size: 3vmin;
+    margin: 0px;
+    padding: 0px;
+    transition: 1s;
+}
+
+body {
+	height: 100vh;
+    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.Border {
+	position: relative;
+	border: 0.5vmin solid black;
+	width: 60vmin;
+	height: 25vmin;
+	box-shadow: 0.5vmin 0.5vmin 0.5vmin 0px #00000040;
+	border-radius: 3vmin;
+}
+
+.flex {
+	align-items: center;
+	display: flex;
+	padding: 2vmin;
+}
+
+.name {
+	font-weight: bolder;
+}
+
+button {
+	position: absolute;
+	top: -2vmin;
+	right: -2vmin;
+	border: rgb(0, 0, 0) 0.5vmin solid;
+	border-radius: 100000px;
+	height: 5vmin;
+	width: 5vmin;
+	background: white;
+}
+
+img {
+	width: 20vmin;
+}
